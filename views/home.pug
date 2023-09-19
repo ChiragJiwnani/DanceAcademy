@@ -1,0 +1,37 @@
+extends base.pug
+
+block scripts 
+    script(src='../static/index2.js')  
+
+block style
+    style 
+        include ../static/style2.css
+
+block content
+
+    section#introSection    
+        div.large Welcome to Dance Academy
+        div.small Lets goo
+
+    //- section#missionSection 
+    //-     h2 Our Misson
+
+    section#sponserSection 
+        h2 Our Sponsers
+        
+            div.boxes
+
+                div.box1 
+                    h3 Join fast
+                //- img(src="", alt="")
+
+                div.box2 
+                    h3 Join fast
+                //- img(src="", alt="")
+
+                div.box3 
+                    h3 Join fast
+                //- img(src="", alt="")
+
+//- script 
+            include ../static/index2.js 

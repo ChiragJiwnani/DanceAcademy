@@ -1,0 +1,129 @@
+@import url("");
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+    
+    background-image:linear-gradient(to right,#66696a, #212121);
+    padding: 13px 14px;
+    font-family: "";
+    border-bottom: 3px solid black;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+#navbar li {
+    list-style: none;
+    
+}
+
+#navbar li a{
+    color: aliceblue;
+    /* font-size: 2rem; */
+    text-decoration: none;
+    padding: 7px 11px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    /* color: limegreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    font-size: 35px;
+    background: center/ cover no-repeat url("../static/bg2.jpg");
+    height: 425px;
+    opacity: 0.9;
+    
+}
+
+#introSection div.small{
+    font-size: 25px;
+    padding: 5px;
+    color: cyan;
+
+}
+.large{
+   color: cyan;
+   /* background-color: #6d7071; */
+   /* border-radius: 25px; */
+   /* margin-left: 60px; */
+}
+
+#sponserSection{
+    height: 400px;
+    background-image: linear-gradient(to right,#66696a, #212121);
+    padding: 20px;
+    display: flex;
+}
+
+#sponserSection h2{
+    font-family: "";
+    text-align: center;
+    padding: 5px;
+    font-size: 35px;
+}
+
+#sponserSection .boxes{
+    margin: 25px 7px;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+#sponserSection .box1{
+    background-image: linear-gradient(to right,#41c8f5, #ef6a6a);
+    height: 250px;
+    width: 260px;
+    padding: 5px 5px;
+    margin: 3px 6px;
+    border: 2px solid black;
+    border-radius: 4px;
+    align-items: center;
+    /* display: flex; */
+}
+
+#sponserSection .box2{
+    background-image: linear-gradient(to right,#ff0000, #b5e36f);
+    height: 250px;
+    width: 260px;
+    padding: 5px 5px;
+    margin: 3px 6px;
+    border: 2px solid black;
+    border-radius: 4px;
+    align-items: center;
+    /* display: flex; */
+}
+
+#sponserSection .box3{
+    background-image: linear-gradient(to right,#b5e847, #212121);
+    height: 250px;
+    width: 260px;
+    padding: 5px 5px;
+    margin: 3px 6px;
+    border: 2px solid black;
+    border-radius: 4px;
+    align-items: center;
+    /* display: flex; */
+}
+
+#footer{
+    font-size: smaller;
+    color: white;
+    border-top: 5px solid black;
+    background-image: linear-gradient(to right,#66696a, #212121);
+    height: 35px;
+    padding: 5px 24px;
+    text-align: center;
+}
